@@ -1,0 +1,16 @@
+# Project configuration
+
+data:
+  raw_path: "data/raw/"
+  processed_path: "data/processed/"
+  tickers: ["AAPL", "MSFT", "TSLA", "GOOGL", "AMZN", "NVDA", "META"]
+  period: "2y"
+
+model:
+  save_path: "models/"
+  test_size: 0.2
+  random_state: 42
+  n_estimators: 100
+
+mlflow:
+  experiment_name: "stock_prediction"
